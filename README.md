@@ -12,7 +12,7 @@ The same database project was implemented using three different database technol
 
 The goal was to practice creating, storing, querying, and managing the same type of data using different database systems 💻.
 
-💡 Project Idea
+## 💡 Project Idea
 
 The project is a database for managing graduates, companies, majors, company branches, and job applications 📊.
 
@@ -25,7 +25,7 @@ It includes information such as:
 * 📌 Application status such as Accepted, Rejected, and Pending
 * 💼 Employment information
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 1. 🐬 MySQL
 
@@ -67,29 +67,13 @@ The project was also implemented using Firebase Firestore ☁️.
 
 The same project data was added to Firestore to practice working with a cloud-based NoSQL database and its collections and documents 🚀.
 
-📂 Project Structure
-
-Database Project
-│
-├── MySQL
-│   ├── database_dump.sql
-│   └── queries.sql
-│
-├── MongoDB
-│   └── collections
-│       ├── graduates.json
-│       ├── companies.json
-│       └── ...
-│
-└── README.md
-
-🎯 What I Learned
+## 🎯 What I Learned
 
 Through this project, I practiced working with different database technologies and understood how the same data and relationships can be represented in different database systems 🧠.
 
 This project helped me compare relational databases such as MySQL with NoSQL databases such as MongoDB and Firebase Firestore ⚖️.
 
-🌟 Project Highlights
+## 🌟 Project Highlights
 
 * ✅ Implemented the same project using three database technologies
 * ✅ Practiced relational database concepts
@@ -99,5 +83,5 @@ This project helped me compare relational databases such as MySQL with NoSQL dat
 * ✅ Improved my understanding of database design and data relationships
 
 👩‍💻 Author
-
+(Ohud Ali )
 Created as part of my learning journey in databases on Satr Platform 🎓✨
