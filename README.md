@@ -77,7 +77,6 @@ This allowed me to use the same project data in both MongoDB and Firebase Firest
 
 MySQL database tables and query results.
 
-![mysql](Screenshots/Mysql/لقطة شاشة 2026-09-24 162700.png)
 
 ### 🍃 MongoDB Atlas & Compass
 
