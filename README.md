@@ -1,6 +1,6 @@
 # 🗄️ Database Project
 
-📌## Project Overview
+## 📌Project Overview
 
 This project was created as part of my Database learning journey on Satr Platform 🎓.
 
