@@ -1,4 +1,4 @@
-# 🗄️ Database Project
+# 🗄️ Database Projects
 
 ## 📌Project Overview
 
