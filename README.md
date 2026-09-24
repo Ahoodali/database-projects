@@ -81,17 +81,17 @@ MySQL database tables and query results.
 ### 🍃 MongoDB Atlas & Compass
 
 MongoDB collections, documents, and database operations.
-![mysql](Screenshots/Mysql/2.png
+![mysql](Screenshots/MongoDB/2.png)
 
-![mysql](Screenshots/Mysql/3.png)
+![mysql](Screenshots/MongoDB/3.png)
 
 ### 🔥 Firebase Firestore
 
 Firebase Firestore collections and documents.
 
 These screenshots demonstrate the implementation of the same database project using different database technologies.
-![mysql](Screenshots/Mysql/4.png)
-![mysql](Screenshots/Mysql/5.png)
+![mysql](Screenshots/Firebase/4.png)
+![mysql](Screenshots/Firebase/5.png)
 
 
 ## 🎯 What I Learned
