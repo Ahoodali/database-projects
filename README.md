@@ -87,5 +87,6 @@ This project helped me compare relational databases such as MySQL with NoSQL dat
 * ✅ Improved my understanding of database design and data relationships
 
 👩‍💻 Author
-(Ohud Ali )
+### (Ohud Ali )
+
 Created as part of my learning journey in databases on Satr Platform 🎓✨
