@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "6ab1e9a73faf2fba4dc24671"
+  },
+  "majorId": 1,
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1e9a73faf2fba4dc24672"
+  },
+  "majorId": 2,
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1e9a73faf2fba4dc24673"
+  },
+  "majorId": 3,
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1e9a73faf2fba4dc24674"
+  },
+  "majorId": 4,
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1e9a73faf2fba4dc24675"
+  },
+  "majorId": 5,
+  "majorName": "DS"
+}]

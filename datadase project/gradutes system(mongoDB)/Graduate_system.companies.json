@@ -1,0 +1,950 @@
+[{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe8fee"
+  },
+  "companyId": 1,
+  "company_name": "Microsoft",
+  "sector": "Technology",
+  "website": "https://www.microsoft.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe8ff3"
+  },
+  "companyId": 6,
+  "company_name": "IBM",
+  "sector": "Technology",
+  "website": "https://www.ibm.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe8ff5"
+  },
+  "companyId": 8,
+  "company_name": "Cisco",
+  "sector": "Technology",
+  "website": "https://www.cisco.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe8ff7"
+  },
+  "companyId": 10,
+  "company_name": "Intel",
+  "sector": "Semiconductors",
+  "website": "https://www.intel.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe8ff9"
+  },
+  "companyId": 12,
+  "company_name": "SABIC",
+  "sector": "Chemicals",
+  "website": "https://www.sabic.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe8ffa"
+  },
+  "companyId": 13,
+  "company_name": "STC",
+  "sector": "Telecommunications",
+  "website": "https://www.stc.com.sa",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe8ffc"
+  },
+  "companyId": 15,
+  "company_name": "Zain Saudi Arabia",
+  "sector": "Telecommunications",
+  "website": "https://sa.zain.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe8ffe"
+  },
+  "companyId": 17,
+  "company_name": "Saudi National Bank",
+  "sector": "Banking",
+  "website": "https://www.alahli.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe9001"
+  },
+  "companyId": 20,
+  "company_name": "Saudi Awwal Bank",
+  "sector": "Banking",
+  "website": "https://www.sab.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe9008"
+  },
+  "companyId": 27,
+  "company_name": "Danube",
+  "sector": "Retail",
+  "website": "https://www.danube.sa",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe900a"
+  },
+  "companyId": 29,
+  "company_name": "Saudia",
+  "sector": "Airlines",
+  "website": "https://www.saudia.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe900b"
+  },
+  "companyId": 30,
+  "company_name": "Flyadeal",
+  "sector": "Airlines",
+  "website": "https://www.flyadeal.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe900d"
+  },
+  "companyId": 32,
+  "company_name": "SAP",
+  "sector": "Enterprise Software",
+  "website": "https://www.sap.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe9010"
+  },
+  "companyId": 35,
+  "company_name": "Lenovo",
+  "sector": "Technology",
+  "website": "https://www.lenovo.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe9017"
+  },
+  "companyId": 42,
+  "company_name": "Careem",
+  "sector": "Transportation",
+  "website": "https://www.careem.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe901c"
+  },
+  "companyId": 47,
+  "company_name": "NEOM",
+  "sector": "Development",
+  "website": "https://www.neom.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe8fef"
+  },
+  "companyId": 2,
+  "company_name": "Google",
+  "sector": "Technology",
+  "website": "https://www.google.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe8ffd"
+  },
+  "companyId": 16,
+  "company_name": "Al Rajhi Bank",
+  "sector": "Banking",
+  "website": "https://www.alrajhibank.com.sa",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe9000"
+  },
+  "companyId": 19,
+  "company_name": "Bank Albilad",
+  "sector": "Banking",
+  "website": "https://www.bankalbilad.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe9005"
+  },
+  "companyId": 24,
+  "company_name": "Extra",
+  "sector": "Retail",
+  "website": "https://www.extra.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe9007"
+  },
+  "companyId": 26,
+  "company_name": "Tamimi Markets",
+  "sector": "Retail",
+  "website": "https://www.tamimimarkets.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe9009"
+  },
+  "companyId": 28,
+  "company_name": "Flynas",
+  "sector": "Airlines",
+  "website": "https://www.flynas.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe9011"
+  },
+  "companyId": 36,
+  "company_name": "Huawei",
+  "sector": "Technology",
+  "website": "https://www.huawei.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe9018"
+  },
+  "companyId": 43,
+  "company_name": "Noon",
+  "sector": "E-commerce",
+  "website": "https://www.noon.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe9019"
+  },
+  "companyId": 44,
+  "company_name": "HungerStation",
+  "sector": "Food Delivery",
+  "website": "https://hungerstation.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe901b"
+  },
+  "companyId": 46,
+  "company_name": "Misk Foundation",
+  "sector": "Non-profit",
+  "website": "https://misk.org.sa",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe901f"
+  },
+  "companyId": 50,
+  "company_name": "Roshn",
+  "sector": "Real Estate",
+  "website": "https://www.roshn.sa",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe8ff1"
+  },
+  "companyId": 4,
+  "company_name": "Aramco",
+  "sector": "E-commerce",
+  "website": "https://www.aramco.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe8ff2"
+  },
+  "companyId": 5,
+  "company_name": "Meta",
+  "sector": "Technology",
+  "website": "https://www.meta.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe8ff6"
+  },
+  "companyId": 9,
+  "company_name": "Adobe",
+  "sector": "Software",
+  "website": "https://www.adobe.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe8ff8"
+  },
+  "companyId": 11,
+  "company_name": "Saudi Aramco",
+  "sector": "Energy",
+  "website": "https://www.aramco.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe8ffb"
+  },
+  "companyId": 14,
+  "company_name": "Mobily",
+  "sector": "Telecommunications",
+  "website": "https://www.mobily.com.sa",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe9004"
+  },
+  "companyId": 23,
+  "company_name": "Nahdi Medical",
+  "sector": "Healthcare",
+  "website": "https://www.nahdi.sa",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe900f"
+  },
+  "companyId": 34,
+  "company_name": "HP",
+  "sector": "Technology",
+  "website": "https://www.hp.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe9014"
+  },
+  "companyId": 39,
+  "company_name": "PwC",
+  "sector": "Consulting",
+  "website": "https://www.pwc.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe9016"
+  },
+  "companyId": 41,
+  "company_name": "Uber",
+  "sector": "Transportation",
+  "website": "https://www.uber.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe901a"
+  },
+  "companyId": 45,
+  "company_name": "Jahez",
+  "sector": "Food Delivery",
+  "website": "https://jahez.net",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe901d"
+  },
+  "companyId": 48,
+  "company_name": "Red Sea Global",
+  "sector": "Tourism & Development",
+  "website": "https://www.redseaglobal.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe901e"
+  },
+  "companyId": 49,
+  "company_name": "Diriyah Company",
+  "sector": "Real Estate & Development",
+  "website": "https://www.diriyah.sa",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe8ff0"
+  },
+  "companyId": 3,
+  "company_name": "Apple",
+  "sector": "Technology",
+  "website": "https://www.apple.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe8ff4"
+  },
+  "companyId": 7,
+  "company_name": "Oracle",
+  "sector": "Technology",
+  "website": "https://www.oracle.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe8fff"
+  },
+  "companyId": 18,
+  "company_name": "Riyad Bank",
+  "sector": "Banking",
+  "website": "https://www.riyadbank.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe9002"
+  },
+  "companyId": 21,
+  "company_name": "Almarai",
+  "sector": "Food & Beverage",
+  "website": "https://www.almarai.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe9003"
+  },
+  "companyId": 22,
+  "company_name": "Jarir Marketing",
+  "sector": "Retail",
+  "website": "https://www.jarir.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe9006"
+  },
+  "companyId": 25,
+  "company_name": "Panda Retail",
+  "sector": "Retail",
+  "website": "https://www.panda.com.sa",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe900c"
+  },
+  "companyId": 31,
+  "company_name": "Microsoft Arabia",
+  "sector": "Technology",
+  "website": "https://www.microsoft.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe900e"
+  },
+  "companyId": 33,
+  "company_name": "Dell Technologies",
+  "sector": "Technology",
+  "website": "https://www.dell.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe9012"
+  },
+  "companyId": 37,
+  "company_name": "Accenture",
+  "sector": "Consulting",
+  "website": "https://www.accenture.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe9013"
+  },
+  "companyId": 38,
+  "company_name": "Deloitte",
+  "sector": "Consulting",
+  "website": "https://www.deloitte.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa9203a865efee56bbe9015"
+  },
+  "companyId": 40,
+  "company_name": "KPMG",
+  "sector": "Consulting",
+  "website": "https://kpmg.com",
+  "branches": [
+    {
+      "branchId": 1,
+      "city": "Riyadh"
+    },
+    {
+      "branchId": 2,
+      "city": "Jeddah"
+    }
+  ]
+}]

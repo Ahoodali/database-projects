@@ -1,0 +1,4693 @@
+[{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436ac"
+  },
+  "graduateId": 1,
+  "graduateName": "turki1",
+  "gradYear": 2024,
+  "gpa": 4.05,
+  "majorId": 5,
+  "gender": "male",
+  "current_company_id": 1,
+  "acceptedCompanyName": "Microsoft",
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954345f"
+      },
+      "graduateId": 1,
+      "company_name": "Microsoft",
+      "status": "Accepted",
+      "application_date": "2024-05-01",
+      "response_date": "2024-05-06"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543460"
+      },
+      "graduateId": 1,
+      "company_name": "Google",
+      "status": "Pending",
+      "application_date": "2024-05-02",
+      "response_date": "2024-05-07"
+    }
+  ],
+  "companyInfo": [
+    {
+      "_id": {
+        "$oid": "6aa9203a865efee56bbe8fee"
+      },
+      "companyId": 1,
+      "company_name": "Microsoft",
+      "sector": "Technology",
+      "website": "https://www.microsoft.com",
+      "branches": [
+        {
+          "branchId": 1,
+          "city": "Riyadh"
+        },
+        {
+          "branchId": 2,
+          "city": "Jeddah"
+        }
+      ]
+    }
+  ],
+  "branchId": 1,
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436ad"
+  },
+  "graduateId": 2,
+  "graduateName": "nawaf2",
+  "gradYear": 2024,
+  "gpa": 4.02,
+  "majorId": 2,
+  "gender": "male",
+  "current_company_id": 1,
+  "acceptedCompanyName": "Microsoft",
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543461"
+      },
+      "graduateId": 2,
+      "company_name": "Microsoft",
+      "status": "Accepted",
+      "application_date": "2024-05-03",
+      "response_date": "2024-05-08"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543481"
+      },
+      "graduateId": 2,
+      "company_name": "Google",
+      "status": "Pending",
+      "application_date": "2024-03-10",
+      "response_date": "2024-03-15"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543482"
+      },
+      "graduateId": 2,
+      "company_name": "Meta",
+      "status": "Pending",
+      "application_date": "2024-03-12",
+      "response_date": "2024-03-17"
+    }
+  ],
+  "companyInfo": [
+    {
+      "_id": {
+        "$oid": "6aa9203a865efee56bbe8fee"
+      },
+      "companyId": 1,
+      "company_name": "Microsoft",
+      "sector": "Technology",
+      "website": "https://www.microsoft.com",
+      "branches": [
+        {
+          "branchId": 1,
+          "city": "Riyadh"
+        },
+        {
+          "branchId": 2,
+          "city": "Jeddah"
+        }
+      ]
+    }
+  ],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436ae"
+  },
+  "graduateId": 3,
+  "graduateName": "ahmed3",
+  "gradYear": 2025,
+  "gpa": 4.92,
+  "majorId": 5,
+  "gender": "male",
+  "current_company_id": 2,
+  "acceptedCompanyName": "Google",
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543462"
+      },
+      "graduateId": 3,
+      "company_name": "Google",
+      "status": "Accepted",
+      "application_date": "2024-05-10",
+      "response_date": "2024-05-15"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543483"
+      },
+      "graduateId": 3,
+      "company_name": "Microsoft",
+      "status": "Pending",
+      "application_date": "2024-03-11",
+      "response_date": "2024-03-16"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543484"
+      },
+      "graduateId": 3,
+      "company_name": "Apple",
+      "status": "Pending",
+      "application_date": "2024-03-13",
+      "response_date": "2024-03-18"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543485"
+      },
+      "graduateId": 3,
+      "company_name": "Amazon",
+      "status": "Pending",
+      "application_date": "2024-03-15",
+      "response_date": "2024-03-20"
+    }
+  ],
+  "companyInfo": [
+    {
+      "_id": {
+        "$oid": "6aa9203a865efee56bbe8fef"
+      },
+      "companyId": 2,
+      "company_name": "Google",
+      "sector": "Technology",
+      "website": "https://www.google.com",
+      "branches": [
+        {
+          "branchId": 1,
+          "city": "Riyadh"
+        },
+        {
+          "branchId": 2,
+          "city": "Jeddah"
+        }
+      ]
+    }
+  ],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436af"
+  },
+  "graduateId": 4,
+  "graduateName": "abdullah4",
+  "gradYear": 2023,
+  "gpa": 4.81,
+  "majorId": 1,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543486"
+      },
+      "graduateId": 4,
+      "company_name": "Google",
+      "status": "Pending",
+      "application_date": "2024-03-10",
+      "response_date": "2024-03-15"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543487"
+      },
+      "graduateId": 4,
+      "company_name": "Apple",
+      "status": "Pending",
+      "application_date": "2024-03-14",
+      "response_date": "2024-03-19"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436b0"
+  },
+  "graduateId": 5,
+  "graduateName": "khalid5",
+  "gradYear": 2023,
+  "gpa": 5,
+  "majorId": 3,
+  "gender": "male",
+  "current_company_id": 3,
+  "acceptedCompanyName": "Apple",
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543463"
+      },
+      "graduateId": 5,
+      "company_name": "Apple",
+      "status": "Accepted",
+      "application_date": "2024-05-11",
+      "response_date": "2024-05-16"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543488"
+      },
+      "graduateId": 5,
+      "company_name": "Microsoft",
+      "status": "Pending",
+      "application_date": "2024-03-12",
+      "response_date": "2024-03-17"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543489"
+      },
+      "graduateId": 5,
+      "company_name": "Amazon",
+      "status": "Pending",
+      "application_date": "2024-03-16",
+      "response_date": "2024-03-21"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954348a"
+      },
+      "graduateId": 5,
+      "company_name": "Meta",
+      "status": "Pending",
+      "application_date": "2024-03-18",
+      "response_date": "2024-03-23"
+    }
+  ],
+  "companyInfo": [
+    {
+      "_id": {
+        "$oid": "6aa9203a865efee56bbe8ff0"
+      },
+      "companyId": 3,
+      "company_name": "Apple",
+      "sector": "Technology",
+      "website": "https://www.apple.com",
+      "branches": [
+        {
+          "branchId": 1,
+          "city": "Riyadh"
+        },
+        {
+          "branchId": 2,
+          "city": "Jeddah"
+        }
+      ]
+    }
+  ],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436b1"
+  },
+  "graduateId": 6,
+  "graduateName": "sara6",
+  "gradYear": 2023,
+  "gpa": 4.96,
+  "majorId": 2,
+  "gender": "female",
+  "current_company_id": 5,
+  "acceptedCompanyName": "Meta",
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543464"
+      },
+      "graduateId": 6,
+      "company_name": "Meta",
+      "status": "Accepted",
+      "application_date": "2024-05-12",
+      "response_date": "2024-05-17"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954348b"
+      },
+      "graduateId": 6,
+      "company_name": "Microsoft",
+      "status": "Pending",
+      "application_date": "2024-03-10",
+      "response_date": "2024-03-15"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954348c"
+      },
+      "graduateId": 6,
+      "company_name": "Apple",
+      "status": "Pending",
+      "application_date": "2024-03-14",
+      "response_date": "2024-03-19"
+    }
+  ],
+  "companyInfo": [
+    {
+      "_id": {
+        "$oid": "6aa9203a865efee56bbe8ff2"
+      },
+      "companyId": 5,
+      "company_name": "Meta",
+      "sector": "Technology",
+      "website": "https://www.meta.com",
+      "branches": [
+        {
+          "branchId": 1,
+          "city": "Riyadh"
+        },
+        {
+          "branchId": 2,
+          "city": "Jeddah"
+        }
+      ]
+    }
+  ],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436b2"
+  },
+  "graduateId": 7,
+  "graduateName": "sultan7",
+  "gradYear": 2023,
+  "gpa": 4.37,
+  "majorId": 5,
+  "gender": "male",
+  "current_company_id": 3,
+  "acceptedCompanyName": "Apple",
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543465"
+      },
+      "graduateId": 7,
+      "company_name": "Apple",
+      "status": "Accepted",
+      "application_date": "2024-05-12",
+      "response_date": "2024-05-17"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954348d"
+      },
+      "graduateId": 7,
+      "company_name": "Google",
+      "status": "Pending",
+      "application_date": "2024-03-11",
+      "response_date": "2024-03-16"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954348e"
+      },
+      "graduateId": 7,
+      "company_name": "Amazon",
+      "status": "Pending",
+      "application_date": "2024-03-15",
+      "response_date": "2024-03-20"
+    }
+  ],
+  "companyInfo": [
+    {
+      "_id": {
+        "$oid": "6aa9203a865efee56bbe8ff0"
+      },
+      "companyId": 3,
+      "company_name": "Apple",
+      "sector": "Technology",
+      "website": "https://www.apple.com",
+      "branches": [
+        {
+          "branchId": 1,
+          "city": "Riyadh"
+        },
+        {
+          "branchId": 2,
+          "city": "Jeddah"
+        }
+      ]
+    }
+  ],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436b3"
+  },
+  "graduateId": 8,
+  "graduateName": "shahad8",
+  "gradYear": 2023,
+  "gpa": 4.67,
+  "majorId": 4,
+  "gender": "female",
+  "current_company_id": 10,
+  "acceptedCompanyName": "Intel",
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543466"
+      },
+      "graduateId": 8,
+      "company_name": "Intel",
+      "status": "Accepted",
+      "application_date": "2024-05-13",
+      "response_date": "2024-05-18"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954348f"
+      },
+      "graduateId": 8,
+      "company_name": "Microsoft",
+      "status": "Pending",
+      "application_date": "2024-03-10",
+      "response_date": "2024-03-15"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543490"
+      },
+      "graduateId": 8,
+      "company_name": "Google",
+      "status": "Pending",
+      "application_date": "2024-03-12",
+      "response_date": "2024-03-17"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543491"
+      },
+      "graduateId": 8,
+      "company_name": "Meta",
+      "status": "Pending",
+      "application_date": "2024-03-16",
+      "response_date": "2024-03-21"
+    }
+  ],
+  "companyInfo": [
+    {
+      "_id": {
+        "$oid": "6aa9203a865efee56bbe8ff7"
+      },
+      "companyId": 10,
+      "company_name": "Intel",
+      "sector": "Semiconductors",
+      "website": "https://www.intel.com",
+      "branches": [
+        {
+          "branchId": 1,
+          "city": "Riyadh"
+        },
+        {
+          "branchId": 2,
+          "city": "Jeddah"
+        }
+      ]
+    }
+  ],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436b4"
+  },
+  "graduateId": 9,
+  "graduateName": "bader9",
+  "gradYear": 2024,
+  "gpa": 4.69,
+  "majorId": 5,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543467"
+      },
+      "graduateId": 9,
+      "company_name": "Zain Saudi Arabia",
+      "status": "Pending",
+      "application_date": "2024-05-13",
+      "response_date": "2024-05-18"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543492"
+      },
+      "graduateId": 9,
+      "company_name": "Apple",
+      "status": "Pending",
+      "application_date": "2024-03-11",
+      "response_date": "2024-03-16"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543493"
+      },
+      "graduateId": 9,
+      "company_name": "Amazon",
+      "status": "Pending",
+      "application_date": "2024-03-13",
+      "response_date": "2024-03-18"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436b5"
+  },
+  "graduateId": 10,
+  "graduateName": "turki10",
+  "gradYear": 2024,
+  "gpa": 4.08,
+  "majorId": 5,
+  "gender": "male",
+  "current_company_id": 2,
+  "acceptedCompanyName": "Google",
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543468"
+      },
+      "graduateId": 10,
+      "company_name": "Google",
+      "status": "Accepted",
+      "application_date": "2024-05-14",
+      "response_date": "2024-05-19"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543494"
+      },
+      "graduateId": 10,
+      "company_name": "Google",
+      "status": "Pending",
+      "application_date": "2024-03-10",
+      "response_date": "2024-03-15"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543495"
+      },
+      "graduateId": 10,
+      "company_name": "Apple",
+      "status": "Pending",
+      "application_date": "2024-03-14",
+      "response_date": "2024-03-19"
+    }
+  ],
+  "companyInfo": [
+    {
+      "_id": {
+        "$oid": "6aa9203a865efee56bbe8fef"
+      },
+      "companyId": 2,
+      "company_name": "Google",
+      "sector": "Technology",
+      "website": "https://www.google.com",
+      "branches": [
+        {
+          "branchId": 1,
+          "city": "Riyadh"
+        },
+        {
+          "branchId": 2,
+          "city": "Jeddah"
+        }
+      ]
+    }
+  ],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436b6"
+  },
+  "graduateId": 11,
+  "graduateName": "haya11",
+  "gradYear": 2025,
+  "gpa": 4.13,
+  "majorId": 3,
+  "gender": "female",
+  "current_company_id": 8,
+  "acceptedCompanyName": "Cisco",
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543469"
+      },
+      "graduateId": 11,
+      "company_name": "Cisco",
+      "status": "Accepted",
+      "application_date": "2024-05-14",
+      "response_date": "2024-05-19"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543496"
+      },
+      "graduateId": 11,
+      "company_name": "Microsoft",
+      "status": "Pending",
+      "application_date": "2024-03-09",
+      "response_date": "2024-03-14"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543497"
+      },
+      "graduateId": 11,
+      "company_name": "Meta",
+      "status": "Pending",
+      "application_date": "2024-03-15",
+      "response_date": "2024-03-20"
+    }
+  ],
+  "companyInfo": [
+    {
+      "_id": {
+        "$oid": "6aa9203a865efee56bbe8ff5"
+      },
+      "companyId": 8,
+      "company_name": "Cisco",
+      "sector": "Technology",
+      "website": "https://www.cisco.com",
+      "branches": [
+        {
+          "branchId": 1,
+          "city": "Riyadh"
+        },
+        {
+          "branchId": 2,
+          "city": "Jeddah"
+        }
+      ]
+    }
+  ],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436b7"
+  },
+  "graduateId": 12,
+  "graduateName": "hassan12",
+  "gradYear": 2024,
+  "gpa": 4.33,
+  "majorId": 5,
+  "gender": "male",
+  "current_company_id": 12,
+  "acceptedCompanyName": "SABIC",
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954346a"
+      },
+      "graduateId": 12,
+      "company_name": "SABIC",
+      "status": "Accepted",
+      "application_date": "2024-05-15",
+      "response_date": "2024-05-20"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543498"
+      },
+      "graduateId": 12,
+      "company_name": "Google",
+      "status": "Pending",
+      "application_date": "2024-03-12",
+      "response_date": "2024-03-17"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543499"
+      },
+      "graduateId": 12,
+      "company_name": "Amazon",
+      "status": "Pending",
+      "application_date": "2024-03-14",
+      "response_date": "2024-03-19"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954349a"
+      },
+      "graduateId": 12,
+      "company_name": "Meta",
+      "status": "Pending",
+      "application_date": "2024-03-17",
+      "response_date": "2024-03-22"
+    }
+  ],
+  "companyInfo": [
+    {
+      "_id": {
+        "$oid": "6aa9203a865efee56bbe8ff9"
+      },
+      "companyId": 12,
+      "company_name": "SABIC",
+      "sector": "Chemicals",
+      "website": "https://www.sabic.com",
+      "branches": [
+        {
+          "branchId": 1,
+          "city": "Riyadh"
+        },
+        {
+          "branchId": 2,
+          "city": "Jeddah"
+        }
+      ]
+    }
+  ],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436b8"
+  },
+  "graduateId": 13,
+  "graduateName": "laila13",
+  "gradYear": 2023,
+  "gpa": 4.79,
+  "majorId": 1,
+  "gender": "female",
+  "current_company_id": 1,
+  "acceptedCompanyName": "Amazon",
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954346b"
+      },
+      "graduateId": 13,
+      "company_name": "Amazon",
+      "status": "Accepted",
+      "application_date": "2024-05-15",
+      "response_date": "2024-05-20"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954349b"
+      },
+      "graduateId": 13,
+      "company_name": "Apple",
+      "status": "Pending",
+      "application_date": "2024-03-10",
+      "response_date": "2024-03-15"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954349c"
+      },
+      "graduateId": 13,
+      "company_name": "Amazon",
+      "status": "Pending",
+      "application_date": "2024-03-12",
+      "response_date": "2024-03-17"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436b9"
+  },
+  "graduateId": 14,
+  "graduateName": "salem14",
+  "gradYear": 2025,
+  "gpa": 4.31,
+  "majorId": 3,
+  "gender": "male",
+  "current_company_id": 1,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954346c"
+      },
+      "graduateId": 14,
+      "company_name": "IBM",
+      "status": "Pending",
+      "application_date": "2024-05-16",
+      "response_date": "2024-05-21"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954349d"
+      },
+      "graduateId": 14,
+      "company_name": "Microsoft",
+      "status": "Pending",
+      "application_date": "2024-03-11",
+      "response_date": "2024-03-16"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954349e"
+      },
+      "graduateId": 14,
+      "company_name": "Google",
+      "status": "Pending",
+      "application_date": "2024-03-13",
+      "response_date": "2024-03-18"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436ba"
+  },
+  "graduateId": 15,
+  "graduateName": "osama15",
+  "gradYear": 2025,
+  "gpa": 4.68,
+  "majorId": 4,
+  "gender": "male",
+  "current_company_id": 9,
+  "acceptedCompanyName": "Adobe",
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954346d"
+      },
+      "graduateId": 15,
+      "company_name": "Adobe",
+      "status": "Accepted",
+      "application_date": "2024-05-16",
+      "response_date": "2024-05-21"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954349f"
+      },
+      "graduateId": 15,
+      "company_name": "Google",
+      "status": "Pending",
+      "application_date": "2024-03-10",
+      "response_date": "2024-03-15"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a95434a0"
+      },
+      "graduateId": 15,
+      "company_name": "Apple",
+      "status": "Pending",
+      "application_date": "2024-03-12",
+      "response_date": "2024-03-17"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a95434a1"
+      },
+      "graduateId": 15,
+      "company_name": "Meta",
+      "status": "Pending",
+      "application_date": "2024-03-15",
+      "response_date": "2024-03-20"
+    }
+  ],
+  "companyInfo": [
+    {
+      "_id": {
+        "$oid": "6aa9203a865efee56bbe8ff6"
+      },
+      "companyId": 9,
+      "company_name": "Adobe",
+      "sector": "Software",
+      "website": "https://www.adobe.com",
+      "branches": [
+        {
+          "branchId": 1,
+          "city": "Riyadh"
+        },
+        {
+          "branchId": 2,
+          "city": "Jeddah"
+        }
+      ]
+    }
+  ],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436bb"
+  },
+  "graduateId": 16,
+  "graduateName": "maha16",
+  "gradYear": 2023,
+  "gpa": 4.55,
+  "majorId": 1,
+  "gender": "female",
+  "current_company_id": 1,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a95434a2"
+      },
+      "graduateId": 16,
+      "company_name": "Amazon",
+      "status": "Pending",
+      "application_date": "2024-03-11",
+      "response_date": "2024-03-16"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a95434a3"
+      },
+      "graduateId": 16,
+      "company_name": "Meta",
+      "status": "Pending",
+      "application_date": "2024-03-14",
+      "response_date": "2024-03-19"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436bc"
+  },
+  "graduateId": 17,
+  "graduateName": "ahmed17",
+  "gradYear": 2025,
+  "gpa": 4.11,
+  "majorId": 3,
+  "gender": "male",
+  "current_company_id": 1,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a95434a4"
+      },
+      "graduateId": 17,
+      "company_name": "Microsoft",
+      "status": "Pending",
+      "application_date": "2024-03-10",
+      "response_date": "2024-03-15"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a95434a5"
+      },
+      "graduateId": 17,
+      "company_name": "Apple",
+      "status": "Pending",
+      "application_date": "2024-03-13",
+      "response_date": "2024-03-18"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436bd"
+  },
+  "graduateId": 18,
+  "graduateName": "yousef18",
+  "gradYear": 2025,
+  "gpa": 4.22,
+  "majorId": 3,
+  "gender": "male",
+  "current_company_id": 1,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a95434a6"
+      },
+      "graduateId": 18,
+      "company_name": "Google",
+      "status": "Pending",
+      "application_date": "2024-03-09",
+      "response_date": "2024-03-14"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a95434a7"
+      },
+      "graduateId": 18,
+      "company_name": "Amazon",
+      "status": "Pending",
+      "application_date": "2024-03-12",
+      "response_date": "2024-03-17"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a95434a8"
+      },
+      "graduateId": 18,
+      "company_name": "Meta",
+      "status": "Pending",
+      "application_date": "2024-03-16",
+      "response_date": "2024-03-21"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436be"
+  },
+  "graduateId": 19,
+  "graduateName": "nawaf19",
+  "gradYear": 2024,
+  "gpa": 4.13,
+  "majorId": 5,
+  "gender": "male",
+  "current_company_id": 1,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a95434a9"
+      },
+      "graduateId": 19,
+      "company_name": "Microsoft",
+      "status": "Pending",
+      "application_date": "2024-03-10",
+      "response_date": "2024-03-15"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a95434aa"
+      },
+      "graduateId": 19,
+      "company_name": "Google",
+      "status": "Pending",
+      "application_date": "2024-03-14",
+      "response_date": "2024-03-19"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436bf"
+  },
+  "graduateId": 20,
+  "graduateName": "rana20",
+  "gradYear": 2023,
+  "gpa": 4.62,
+  "majorId": 1,
+  "gender": "female",
+  "current_company_id": 1,
+  "acceptedCompanyName": "Microsoft",
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954346e"
+      },
+      "graduateId": 20,
+      "company_name": "Microsoft",
+      "status": "Accepted",
+      "application_date": "2024-05-17",
+      "response_date": "2024-05-22"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a95434ab"
+      },
+      "graduateId": 20,
+      "company_name": "Apple",
+      "status": "Pending",
+      "application_date": "2024-03-11",
+      "response_date": "2024-03-16"
+    },
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a95434ac"
+      },
+      "graduateId": 20,
+      "company_name": "Meta",
+      "status": "Pending",
+      "application_date": "2024-03-15",
+      "response_date": "2024-03-20"
+    }
+  ],
+  "companyInfo": [
+    {
+      "_id": {
+        "$oid": "6aa9203a865efee56bbe8fee"
+      },
+      "companyId": 1,
+      "company_name": "Microsoft",
+      "sector": "Technology",
+      "website": "https://www.microsoft.com",
+      "branches": [
+        {
+          "branchId": 1,
+          "city": "Riyadh"
+        },
+        {
+          "branchId": 2,
+          "city": "Jeddah"
+        }
+      ]
+    }
+  ],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436c0"
+  },
+  "graduateId": 21,
+  "graduateName": "ali21",
+  "gradYear": 2023,
+  "gpa": 4.07,
+  "majorId": 1,
+  "gender": "male",
+  "current_company_id": 2,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436c1"
+  },
+  "graduateId": 22,
+  "graduateName": "laila22",
+  "gradYear": 2023,
+  "gpa": 4.12,
+  "majorId": 4,
+  "gender": "female",
+  "current_company_id": 2,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436c2"
+  },
+  "graduateId": 23,
+  "graduateName": "shahad23",
+  "gradYear": 2023,
+  "gpa": 4.36,
+  "majorId": 4,
+  "gender": "female",
+  "current_company_id": 2,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436c3"
+  },
+  "graduateId": 24,
+  "graduateName": "sultan24",
+  "gradYear": 2024,
+  "gpa": 4.62,
+  "majorId": 4,
+  "gender": "male",
+  "current_company_id": 2,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436c4"
+  },
+  "graduateId": 25,
+  "graduateName": "ali25",
+  "gradYear": 2023,
+  "gpa": 4.68,
+  "majorId": 1,
+  "gender": "male",
+  "current_company_id": 5,
+  "acceptedCompanyName": "Meta",
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954346f"
+      },
+      "graduateId": 25,
+      "company_name": "Meta",
+      "status": "Accepted",
+      "application_date": "2024-05-17",
+      "response_date": "2024-05-22"
+    }
+  ],
+  "companyInfo": [
+    {
+      "_id": {
+        "$oid": "6aa9203a865efee56bbe8ff2"
+      },
+      "companyId": 5,
+      "company_name": "Meta",
+      "sector": "Technology",
+      "website": "https://www.meta.com",
+      "branches": [
+        {
+          "branchId": 1,
+          "city": "Riyadh"
+        },
+        {
+          "branchId": 2,
+          "city": "Jeddah"
+        }
+      ]
+    }
+  ],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436c5"
+  },
+  "graduateId": 26,
+  "graduateName": "turki26",
+  "gradYear": 2023,
+  "gpa": 4.12,
+  "majorId": 5,
+  "gender": "male",
+  "current_company_id": 2,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436c6"
+  },
+  "graduateId": 27,
+  "graduateName": "shahad27",
+  "gradYear": 2025,
+  "gpa": 4.69,
+  "majorId": 3,
+  "gender": "female",
+  "current_company_id": 2,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436c7"
+  },
+  "graduateId": 28,
+  "graduateName": "wafa28",
+  "gradYear": 2023,
+  "gpa": 4.4,
+  "majorId": 5,
+  "gender": "female",
+  "current_company_id": 2,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436c8"
+  },
+  "graduateId": 29,
+  "graduateName": "nawaf29",
+  "gradYear": 2025,
+  "gpa": 4.68,
+  "majorId": 2,
+  "gender": "male",
+  "current_company_id": 2,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436c9"
+  },
+  "graduateId": 30,
+  "graduateName": "ahmed30",
+  "gradYear": 2025,
+  "gpa": 4.99,
+  "majorId": 2,
+  "gender": "male",
+  "current_company_id": 2,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543470"
+      },
+      "graduateId": 30,
+      "company_name": "Oracle",
+      "status": "Rejected",
+      "application_date": "2024-05-18",
+      "response_date": "2024-05-23"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436ca"
+  },
+  "graduateId": 31,
+  "graduateName": "huda31",
+  "gradYear": 2023,
+  "gpa": 4.47,
+  "majorId": 2,
+  "gender": "female",
+  "current_company_id": 3,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436cb"
+  },
+  "graduateId": 32,
+  "graduateName": "ghala32",
+  "gradYear": 2025,
+  "gpa": 4.05,
+  "majorId": 2,
+  "gender": "female",
+  "current_company_id": 3,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436cc"
+  },
+  "graduateId": 33,
+  "graduateName": "abdullah33",
+  "gradYear": 2025,
+  "gpa": 4.12,
+  "majorId": 4,
+  "gender": "male",
+  "current_company_id": 3,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436cd"
+  },
+  "graduateId": 34,
+  "graduateName": "bader34",
+  "gradYear": 2024,
+  "gpa": 4.63,
+  "majorId": 1,
+  "gender": "male",
+  "current_company_id": 3,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436ce"
+  },
+  "graduateId": 35,
+  "graduateName": "rana35",
+  "gradYear": 2025,
+  "gpa": 4.62,
+  "majorId": 1,
+  "gender": "female",
+  "current_company_id": 3,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543471"
+      },
+      "graduateId": 35,
+      "company_name": "Saudi Aramco",
+      "status": "Rejected",
+      "application_date": "2024-05-18",
+      "response_date": "2024-05-23"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436cf"
+  },
+  "graduateId": 36,
+  "graduateName": "saad36",
+  "gradYear": 2023,
+  "gpa": 4.12,
+  "majorId": 1,
+  "gender": "male",
+  "current_company_id": 3,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436d0"
+  },
+  "graduateId": 37,
+  "graduateName": "abdullah37",
+  "gradYear": 2023,
+  "gpa": 4.03,
+  "majorId": 4,
+  "gender": "male",
+  "current_company_id": 3,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436d1"
+  },
+  "graduateId": 38,
+  "graduateName": "ghala38",
+  "gradYear": 2023,
+  "gpa": 4.62,
+  "majorId": 2,
+  "gender": "female",
+  "current_company_id": 3,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436d2"
+  },
+  "graduateId": 39,
+  "graduateName": "omar39",
+  "gradYear": 2023,
+  "gpa": 4.94,
+  "majorId": 2,
+  "gender": "male",
+  "current_company_id": 3,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436d3"
+  },
+  "graduateId": 40,
+  "graduateName": "alaa40",
+  "gradYear": 2024,
+  "gpa": 4.47,
+  "majorId": 1,
+  "gender": "female",
+  "current_company_id": 3,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543472"
+      },
+      "graduateId": 40,
+      "company_name": "Saudi Awwal Bank",
+      "status": "Pending",
+      "application_date": "2024-05-19",
+      "response_date": "2024-05-24"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436d4"
+  },
+  "graduateId": 41,
+  "graduateName": "lama41",
+  "gradYear": 2025,
+  "gpa": 4.08,
+  "majorId": 4,
+  "gender": "female",
+  "current_company_id": 5,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436d5"
+  },
+  "graduateId": 42,
+  "graduateName": "ghala42",
+  "gradYear": 2023,
+  "gpa": 4.05,
+  "majorId": 2,
+  "gender": "female",
+  "current_company_id": 5,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436d6"
+  },
+  "graduateId": 43,
+  "graduateName": "dana43",
+  "gradYear": 2025,
+  "gpa": 4.98,
+  "majorId": 2,
+  "gender": "female",
+  "current_company_id": 5,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436d7"
+  },
+  "graduateId": 44,
+  "graduateName": "salem44",
+  "gradYear": 2025,
+  "gpa": 4.45,
+  "majorId": 4,
+  "gender": "male",
+  "current_company_id": 5,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436d8"
+  },
+  "graduateId": 45,
+  "graduateName": "ali45",
+  "gradYear": 2025,
+  "gpa": 4.01,
+  "majorId": 4,
+  "gender": "male",
+  "current_company_id": 5,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543473"
+      },
+      "graduateId": 45,
+      "company_name": "Apple",
+      "status": "Rejected",
+      "application_date": "2024-05-19",
+      "response_date": "2024-05-24"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436d9"
+  },
+  "graduateId": 46,
+  "graduateName": "dana46",
+  "gradYear": 2025,
+  "gpa": 4.15,
+  "majorId": 2,
+  "gender": "female",
+  "current_company_id": 5,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436da"
+  },
+  "graduateId": 47,
+  "graduateName": "alaa47",
+  "gradYear": 2024,
+  "gpa": 4.88,
+  "majorId": 5,
+  "gender": "female",
+  "current_company_id": 5,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436db"
+  },
+  "graduateId": 48,
+  "graduateName": "rayan48",
+  "gradYear": 2024,
+  "gpa": 4.27,
+  "majorId": 3,
+  "gender": "male",
+  "current_company_id": 5,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436dc"
+  },
+  "graduateId": 49,
+  "graduateName": "ali49",
+  "gradYear": 2025,
+  "gpa": 5,
+  "majorId": 4,
+  "gender": "male",
+  "current_company_id": 5,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436dd"
+  },
+  "graduateId": 50,
+  "graduateName": "ali50",
+  "gradYear": 2023,
+  "gpa": 4.49,
+  "majorId": 4,
+  "gender": "male",
+  "current_company_id": 5,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543474"
+      },
+      "graduateId": 50,
+      "company_name": "Panda Retail",
+      "status": "Rejected",
+      "application_date": "2024-05-20",
+      "response_date": "2024-05-25"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436de"
+  },
+  "graduateId": 51,
+  "graduateName": "osama51",
+  "gradYear": 2024,
+  "gpa": 4.62,
+  "majorId": 1,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436df"
+  },
+  "graduateId": 52,
+  "graduateName": "faisal52",
+  "gradYear": 2024,
+  "gpa": 4.26,
+  "majorId": 5,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436e0"
+  },
+  "graduateId": 53,
+  "graduateName": "maha53",
+  "gradYear": 2023,
+  "gpa": 4.6,
+  "majorId": 5,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436e1"
+  },
+  "graduateId": 54,
+  "graduateName": "ahmed54",
+  "gradYear": 2023,
+  "gpa": 4.51,
+  "majorId": 2,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436e2"
+  },
+  "graduateId": 55,
+  "graduateName": "laila55",
+  "gradYear": 2023,
+  "gpa": 4.92,
+  "majorId": 4,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543475"
+      },
+      "graduateId": 55,
+      "company_name": "Flyadeal",
+      "status": "Rejected",
+      "application_date": "2024-05-20",
+      "response_date": "2024-05-25"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436e3"
+  },
+  "graduateId": 56,
+  "graduateName": "joud56",
+  "gradYear": 2024,
+  "gpa": 4.8,
+  "majorId": 5,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436e4"
+  },
+  "graduateId": 57,
+  "graduateName": "yousef57",
+  "gradYear": 2025,
+  "gpa": 4.87,
+  "majorId": 5,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436e5"
+  },
+  "graduateId": 58,
+  "graduateName": "nawaf58",
+  "gradYear": 2025,
+  "gpa": 4.95,
+  "majorId": 2,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436e6"
+  },
+  "graduateId": 59,
+  "graduateName": "ghala59",
+  "gradYear": 2025,
+  "gpa": 4.81,
+  "majorId": 4,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436e7"
+  },
+  "graduateId": 60,
+  "graduateName": "salma60",
+  "gradYear": 2024,
+  "gpa": 4.29,
+  "majorId": 4,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543476"
+      },
+      "graduateId": 60,
+      "company_name": "Google",
+      "status": "Rejected",
+      "application_date": "2024-05-21",
+      "response_date": "2024-05-26"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436e8"
+  },
+  "graduateId": 61,
+  "graduateName": "nada61",
+  "gradYear": 2024,
+  "gpa": 4.4,
+  "majorId": 1,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436e9"
+  },
+  "graduateId": 62,
+  "graduateName": "faisal62",
+  "gradYear": 2023,
+  "gpa": 4.43,
+  "majorId": 2,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436ea"
+  },
+  "graduateId": 63,
+  "graduateName": "salma63",
+  "gradYear": 2023,
+  "gpa": 4.26,
+  "majorId": 2,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436eb"
+  },
+  "graduateId": 64,
+  "graduateName": "wafa64",
+  "gradYear": 2024,
+  "gpa": 4.69,
+  "majorId": 1,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436ec"
+  },
+  "graduateId": 65,
+  "graduateName": "saad65",
+  "gradYear": 2024,
+  "gpa": 4.06,
+  "majorId": 5,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436ed"
+  },
+  "graduateId": 66,
+  "graduateName": "amal66",
+  "gradYear": 2023,
+  "gpa": 4.25,
+  "majorId": 5,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436ee"
+  },
+  "graduateId": 67,
+  "graduateName": "reem67",
+  "gradYear": 2024,
+  "gpa": 4.07,
+  "majorId": 3,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436ef"
+  },
+  "graduateId": 68,
+  "graduateName": "turki68",
+  "gradYear": 2025,
+  "gpa": 4.96,
+  "majorId": 4,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436f0"
+  },
+  "graduateId": 69,
+  "graduateName": "dana69",
+  "gradYear": 2024,
+  "gpa": 4.63,
+  "majorId": 4,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436f1"
+  },
+  "graduateId": 70,
+  "graduateName": "yousef70",
+  "gradYear": 2024,
+  "gpa": 4.19,
+  "majorId": 3,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543477"
+      },
+      "graduateId": 70,
+      "company_name": "Mobily",
+      "status": "Rejected",
+      "application_date": "2024-05-21",
+      "response_date": "2024-05-26"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436f2"
+  },
+  "graduateId": 71,
+  "graduateName": "bader71",
+  "gradYear": 2023,
+  "gpa": 4.48,
+  "majorId": 3,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436f3"
+  },
+  "graduateId": 72,
+  "graduateName": "sultan72",
+  "gradYear": 2023,
+  "gpa": 4.07,
+  "majorId": 1,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436f4"
+  },
+  "graduateId": 73,
+  "graduateName": "rayan73",
+  "gradYear": 2024,
+  "gpa": 4.97,
+  "majorId": 1,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436f5"
+  },
+  "graduateId": 74,
+  "graduateName": "rana74",
+  "gradYear": 2023,
+  "gpa": 4.55,
+  "majorId": 1,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436f6"
+  },
+  "graduateId": 75,
+  "graduateName": "osama75",
+  "gradYear": 2024,
+  "gpa": 4.92,
+  "majorId": 2,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436f7"
+  },
+  "graduateId": 76,
+  "graduateName": "faisal76",
+  "gradYear": 2025,
+  "gpa": 4.22,
+  "majorId": 5,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436f8"
+  },
+  "graduateId": 77,
+  "graduateName": "salma77",
+  "gradYear": 2024,
+  "gpa": 4.25,
+  "majorId": 4,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436f9"
+  },
+  "graduateId": 78,
+  "graduateName": "salem78",
+  "gradYear": 2024,
+  "gpa": 4.83,
+  "majorId": 4,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436fa"
+  },
+  "graduateId": 79,
+  "graduateName": "ghala79",
+  "gradYear": 2024,
+  "gpa": 4.77,
+  "majorId": 2,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436fb"
+  },
+  "graduateId": 80,
+  "graduateName": "ahmed80",
+  "gradYear": 2025,
+  "gpa": 4.97,
+  "majorId": 5,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543478"
+      },
+      "graduateId": 80,
+      "company_name": "Riyad Bank",
+      "status": "Pending",
+      "application_date": "2024-05-22",
+      "response_date": "2024-05-27"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436fc"
+  },
+  "graduateId": 81,
+  "graduateName": "noura81",
+  "gradYear": 2025,
+  "gpa": 4.65,
+  "majorId": 5,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436fd"
+  },
+  "graduateId": 82,
+  "graduateName": "rayan82",
+  "gradYear": 2024,
+  "gpa": 4.28,
+  "majorId": 1,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436fe"
+  },
+  "graduateId": 83,
+  "graduateName": "hassan83",
+  "gradYear": 2023,
+  "gpa": 4.01,
+  "majorId": 3,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a95436ff"
+  },
+  "graduateId": 84,
+  "graduateName": "saad84",
+  "gradYear": 2023,
+  "gpa": 4.08,
+  "majorId": 5,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543700"
+  },
+  "graduateId": 85,
+  "graduateName": "rana85",
+  "gradYear": 2024,
+  "gpa": 4.29,
+  "majorId": 1,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543701"
+  },
+  "graduateId": 86,
+  "graduateName": "rayan86",
+  "gradYear": 2023,
+  "gpa": 4.63,
+  "majorId": 1,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543702"
+  },
+  "graduateId": 87,
+  "graduateName": "noura87",
+  "gradYear": 2024,
+  "gpa": 4.75,
+  "majorId": 2,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543703"
+  },
+  "graduateId": 88,
+  "graduateName": "rayan88",
+  "gradYear": 2023,
+  "gpa": 4.07,
+  "majorId": 2,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543704"
+  },
+  "graduateId": 89,
+  "graduateName": "salem89",
+  "gradYear": 2024,
+  "gpa": 4.99,
+  "majorId": 3,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543705"
+  },
+  "graduateId": 90,
+  "graduateName": "khalid90",
+  "gradYear": 2024,
+  "gpa": 4.33,
+  "majorId": 5,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543479"
+      },
+      "graduateId": 90,
+      "company_name": "Jarir Marketing",
+      "status": "Rejected",
+      "application_date": "2024-05-22",
+      "response_date": "2024-05-27"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543706"
+  },
+  "graduateId": 91,
+  "graduateName": "nawaf91",
+  "gradYear": 2024,
+  "gpa": 4.65,
+  "majorId": 2,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543707"
+  },
+  "graduateId": 92,
+  "graduateName": "rayan92",
+  "gradYear": 2025,
+  "gpa": 4.97,
+  "majorId": 2,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543708"
+  },
+  "graduateId": 93,
+  "graduateName": "ghala93",
+  "gradYear": 2025,
+  "gpa": 4.63,
+  "majorId": 2,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543709"
+  },
+  "graduateId": 94,
+  "graduateName": "leen94",
+  "gradYear": 2025,
+  "gpa": 4.05,
+  "majorId": 3,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954370a"
+  },
+  "graduateId": 95,
+  "graduateName": "osama95",
+  "gradYear": 2024,
+  "gpa": 4.64,
+  "majorId": 2,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954370b"
+  },
+  "graduateId": 96,
+  "graduateName": "wafa96",
+  "gradYear": 2023,
+  "gpa": 4,
+  "majorId": 1,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954370c"
+  },
+  "graduateId": 97,
+  "graduateName": "sara97",
+  "gradYear": 2024,
+  "gpa": 4.86,
+  "majorId": 3,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954370d"
+  },
+  "graduateId": 98,
+  "graduateName": "huda98",
+  "gradYear": 2023,
+  "gpa": 4.42,
+  "majorId": 4,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954370e"
+  },
+  "graduateId": 99,
+  "graduateName": "fahad99",
+  "gradYear": 2023,
+  "gpa": 4,
+  "majorId": 3,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954370f"
+  },
+  "graduateId": 100,
+  "graduateName": "lama100",
+  "gradYear": 2025,
+  "gpa": 4.64,
+  "majorId": 2,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954347a"
+      },
+      "graduateId": 100,
+      "company_name": "Microsoft",
+      "status": "Rejected",
+      "application_date": "2024-05-23",
+      "response_date": "2024-05-28"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543710"
+  },
+  "graduateId": 101,
+  "graduateName": "osama101",
+  "gradYear": 2025,
+  "gpa": 4.92,
+  "majorId": 2,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543711"
+  },
+  "graduateId": 102,
+  "graduateName": "fahad102",
+  "gradYear": 2025,
+  "gpa": 4,
+  "majorId": 1,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543712"
+  },
+  "graduateId": 103,
+  "graduateName": "bader103",
+  "gradYear": 2024,
+  "gpa": 4.94,
+  "majorId": 4,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543713"
+  },
+  "graduateId": 104,
+  "graduateName": "haya104",
+  "gradYear": 2023,
+  "gpa": 4.75,
+  "majorId": 4,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543714"
+  },
+  "graduateId": 105,
+  "graduateName": "sultan105",
+  "gradYear": 2023,
+  "gpa": 4.71,
+  "majorId": 2,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543715"
+  },
+  "graduateId": 106,
+  "graduateName": "nawaf106",
+  "gradYear": 2024,
+  "gpa": 4.13,
+  "majorId": 1,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543716"
+  },
+  "graduateId": 107,
+  "graduateName": "majed107",
+  "gradYear": 2025,
+  "gpa": 4.98,
+  "majorId": 1,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543717"
+  },
+  "graduateId": 108,
+  "graduateName": "rana108",
+  "gradYear": 2023,
+  "gpa": 4.05,
+  "majorId": 3,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543718"
+  },
+  "graduateId": 109,
+  "graduateName": "hassan109",
+  "gradYear": 2025,
+  "gpa": 4.17,
+  "majorId": 3,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543719"
+  },
+  "graduateId": 110,
+  "graduateName": "noura110",
+  "gradYear": 2024,
+  "gpa": 4.67,
+  "majorId": 5,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954347b"
+      },
+      "graduateId": 110,
+      "company_name": "IBM",
+      "status": "Rejected",
+      "application_date": "2024-05-23",
+      "response_date": "2024-05-28"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954371a"
+  },
+  "graduateId": 111,
+  "graduateName": "turki111",
+  "gradYear": 2025,
+  "gpa": 4.09,
+  "majorId": 1,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954371b"
+  },
+  "graduateId": 112,
+  "graduateName": "abdullah112",
+  "gradYear": 2024,
+  "gpa": 4.1,
+  "majorId": 3,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954371c"
+  },
+  "graduateId": 113,
+  "graduateName": "haya113",
+  "gradYear": 2025,
+  "gpa": 4.68,
+  "majorId": 1,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954371d"
+  },
+  "graduateId": 114,
+  "graduateName": "rana114",
+  "gradYear": 2023,
+  "gpa": 4.6,
+  "majorId": 1,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954371e"
+  },
+  "graduateId": 115,
+  "graduateName": "wafa115",
+  "gradYear": 2025,
+  "gpa": 4.22,
+  "majorId": 3,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954371f"
+  },
+  "graduateId": 116,
+  "graduateName": "rim116",
+  "gradYear": 2024,
+  "gpa": 4.1,
+  "majorId": 2,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543720"
+  },
+  "graduateId": 117,
+  "graduateName": "osama117",
+  "gradYear": 2025,
+  "gpa": 4.62,
+  "majorId": 1,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543721"
+  },
+  "graduateId": 118,
+  "graduateName": "amal118",
+  "gradYear": 2025,
+  "gpa": 4.36,
+  "majorId": 1,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543722"
+  },
+  "graduateId": 119,
+  "graduateName": "alaa119",
+  "gradYear": 2023,
+  "gpa": 4.83,
+  "majorId": 5,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543723"
+  },
+  "graduateId": 120,
+  "graduateName": "laila120",
+  "gradYear": 2024,
+  "gpa": 4.56,
+  "majorId": 5,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954347c"
+      },
+      "graduateId": 120,
+      "company_name": "Adobe",
+      "status": "Rejected",
+      "application_date": "2024-05-24",
+      "response_date": "2024-05-29"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543724"
+  },
+  "graduateId": 121,
+  "graduateName": "shahad121",
+  "gradYear": 2025,
+  "gpa": 4.17,
+  "majorId": 4,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543725"
+  },
+  "graduateId": 122,
+  "graduateName": "ghala122",
+  "gradYear": 2023,
+  "gpa": 4.07,
+  "majorId": 1,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543726"
+  },
+  "graduateId": 123,
+  "graduateName": "nada123",
+  "gradYear": 2024,
+  "gpa": 4.33,
+  "majorId": 3,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543727"
+  },
+  "graduateId": 124,
+  "graduateName": "rim124",
+  "gradYear": 2025,
+  "gpa": 4.88,
+  "majorId": 4,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543728"
+  },
+  "graduateId": 125,
+  "graduateName": "majed125",
+  "gradYear": 2023,
+  "gpa": 4.31,
+  "majorId": 4,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543729"
+  },
+  "graduateId": 126,
+  "graduateName": "majed126",
+  "gradYear": 2023,
+  "gpa": 4.39,
+  "majorId": 2,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954372a"
+  },
+  "graduateId": 127,
+  "graduateName": "rim127",
+  "gradYear": 2025,
+  "gpa": 4.05,
+  "majorId": 3,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954372b"
+  },
+  "graduateId": 128,
+  "graduateName": "hassan128",
+  "gradYear": 2024,
+  "gpa": 4.66,
+  "majorId": 4,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954372c"
+  },
+  "graduateId": 129,
+  "graduateName": "rana129",
+  "gradYear": 2024,
+  "gpa": 4.88,
+  "majorId": 1,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954372d"
+  },
+  "graduateId": 130,
+  "graduateName": "wafa130",
+  "gradYear": 2023,
+  "gpa": 4.82,
+  "majorId": 2,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954347d"
+      },
+      "graduateId": 130,
+      "company_name": "STC",
+      "status": "Rejected",
+      "application_date": "2024-05-24",
+      "response_date": "2024-05-29"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954372e"
+  },
+  "graduateId": 131,
+  "graduateName": "nawaf131",
+  "gradYear": 2024,
+  "gpa": 4.45,
+  "majorId": 4,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954372f"
+  },
+  "graduateId": 132,
+  "graduateName": "faisal132",
+  "gradYear": 2023,
+  "gpa": 4.67,
+  "majorId": 1,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543730"
+  },
+  "graduateId": 133,
+  "graduateName": "ahmed133",
+  "gradYear": 2023,
+  "gpa": 4.37,
+  "majorId": 1,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543731"
+  },
+  "graduateId": 134,
+  "graduateName": "fahad134",
+  "gradYear": 2023,
+  "gpa": 4.37,
+  "majorId": 1,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543732"
+  },
+  "graduateId": 135,
+  "graduateName": "laila135",
+  "gradYear": 2023,
+  "gpa": 4.97,
+  "majorId": 4,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543733"
+  },
+  "graduateId": 136,
+  "graduateName": "ghala136",
+  "gradYear": 2023,
+  "gpa": 4.08,
+  "majorId": 5,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543734"
+  },
+  "graduateId": 137,
+  "graduateName": "yousef137",
+  "gradYear": 2024,
+  "gpa": 4.98,
+  "majorId": 3,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543735"
+  },
+  "graduateId": 138,
+  "graduateName": "mohammed138",
+  "gradYear": 2024,
+  "gpa": 4.56,
+  "majorId": 4,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543736"
+  },
+  "graduateId": 139,
+  "graduateName": "nada139",
+  "gradYear": 2023,
+  "gpa": 4.7,
+  "majorId": 1,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543737"
+  },
+  "graduateId": 140,
+  "graduateName": "sara140",
+  "gradYear": 2024,
+  "gpa": 4.76,
+  "majorId": 5,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954347e"
+      },
+      "graduateId": 140,
+      "company_name": "Saudi National Bank",
+      "status": "Rejected",
+      "application_date": "2024-05-25",
+      "response_date": "2024-05-30"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543738"
+  },
+  "graduateId": 141,
+  "graduateName": "bader141",
+  "gradYear": 2024,
+  "gpa": 4.14,
+  "majorId": 3,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543739"
+  },
+  "graduateId": 142,
+  "graduateName": "wafa142",
+  "gradYear": 2025,
+  "gpa": 4.27,
+  "majorId": 3,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954373a"
+  },
+  "graduateId": 143,
+  "graduateName": "huda143",
+  "gradYear": 2025,
+  "gpa": 4.07,
+  "majorId": 4,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954373b"
+  },
+  "graduateId": 144,
+  "graduateName": "rayan144",
+  "gradYear": 2025,
+  "gpa": 4.6,
+  "majorId": 4,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24674"
+      },
+      "majorId": 4,
+      "majorName": "IT"
+    }
+  ],
+  "majorName": "IT"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954373c"
+  },
+  "graduateId": 145,
+  "graduateName": "nada145",
+  "gradYear": 2023,
+  "gpa": 4.55,
+  "majorId": 2,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a954347f"
+      },
+      "graduateId": 145,
+      "company_name": "Almarai",
+      "status": "Pending",
+      "application_date": "2024-05-25",
+      "response_date": "2024-05-30"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24672"
+      },
+      "majorId": 2,
+      "majorName": "IS"
+    }
+  ],
+  "majorName": "IS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954373d"
+  },
+  "graduateId": 146,
+  "graduateName": "turki146",
+  "gradYear": 2025,
+  "gpa": 4.13,
+  "majorId": 5,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954373e"
+  },
+  "graduateId": 147,
+  "graduateName": "bader147",
+  "gradYear": 2023,
+  "gpa": 4.12,
+  "majorId": 1,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a954373f"
+  },
+  "graduateId": 148,
+  "graduateName": "rim148",
+  "gradYear": 2025,
+  "gpa": 4.88,
+  "majorId": 5,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24675"
+      },
+      "majorId": 5,
+      "majorName": "DS"
+    }
+  ],
+  "majorName": "DS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543740"
+  },
+  "graduateId": 149,
+  "graduateName": "saad149",
+  "gradYear": 2025,
+  "gpa": 4.07,
+  "majorId": 1,
+  "gender": "male",
+  "current_company_id": null,
+  "applications": [],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24671"
+      },
+      "majorId": 1,
+      "majorName": "CS"
+    }
+  ],
+  "majorName": "CS"
+},
+{
+  "_id": {
+    "$oid": "6ab1be2719c9dfe9a9543741"
+  },
+  "graduateId": 150,
+  "graduateName": "haya150",
+  "gradYear": 2024,
+  "gpa": 4.52,
+  "majorId": 3,
+  "gender": "female",
+  "current_company_id": null,
+  "applications": [
+    {
+      "_id": {
+        "$oid": "6ab1451a19c9dfe9a9543480"
+      },
+      "graduateId": 150,
+      "company_name": "Flynas",
+      "status": "Rejected",
+      "application_date": "2024-05-26",
+      "response_date": "2024-05-31"
+    }
+  ],
+  "companyInfo": [],
+  "majorInfo": [
+    {
+      "_id": {
+        "$oid": "6ab1e9a73faf2fba4dc24673"
+      },
+      "majorId": 3,
+      "majorName": "SE"
+    }
+  ],
+  "majorName": "SE"
+}]

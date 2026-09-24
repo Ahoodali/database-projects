@@ -1,0 +1,961 @@
+/* SELECT city, COUNT(*) as total_companies
+FROM company_locations
+GROUP BY city
+ORDER BY total_companies DESC;*/
+
+/*-- 
+ALTER TABLE job_applications
+ADD CONSTRAINT fk_app_graduate
+FOREIGN KEY (graduateId) REFERENCES graduates(graduateId);
+
+-- 2. 
+ALTER TABLE job_applications
+ADD CONSTRAINT fk_app_company
+FOREIGN KEY (companyId) REFERENCES companies(companyId);*/
+
+
+-- من توظف وأين؟
+/* SELECT 
+    g.graduateName AS graduate_name,
+    c.company_name,
+    ja.status
+FROM job_applications ja
+JOIN graduates g ON ja.graduateId = g.graduateId
+JOIN companies c ON ja.companyId = c.companyId
+WHERE ja.status = 'Accepted';*/
+
+
+/* -- شوفي كل التقديمات مع أسماء الخريجين والشركات
+SELECT 
+    g.graduateName AS graduate_name,
+    c.company_name,
+    ja.status
+FROM job_applications ja
+JOIN graduates g ON ja.graduateId = g.graduateId
+JOIN companies c ON ja.companyId = c.companyId
+ORDER BY g.graduateName
+LIMIT 20;*/
+
+/*INSERT INTO job_applications (graduateId, companyId, application_date, status) VALUES
+(1, 1, '2024-05-01', 'Accepted'),
+(1, 2, '2024-05-02', 'Pending'),
+(2, 1, '2024-05-03', 'Rejected'),
+(3, 2, '2024-05-10', 'Accepted');*/
+
+
+/* CREATE VIEW graduate_employment_report AS
+SELECT 
+    g.graduateId,
+    g.graduateName,
+    g.gradYear,
+    c.companyId,
+    c.company_name,
+    cl.city AS company_city,
+    ja.application_date,
+    ja.status
+FROM job_applications ja
+JOIN graduates g ON ja.graduateId = g.graduateId
+JOIN companies c ON ja.companyId = c.companyId
+LEFT JOIN company_locations cl ON c.companyId = cl.companyId;
+
+-- الحين اعرضي الجدول الموحد
+SELECT * FROM graduate_employment_report;
+*/
+-- select count(*) from job_applications;
+
+/* INSERT INTO job_applications (graduateId, companyId, application_date, status) VALUES
+(5, 3, '2024-05-11', 'Accepted'),
+(6, 5, '2024-05-12', 'Accepted'),
+(7, 3, '2024-05-12', 'Rejected'),
+(8, 10, '2024-05-13', 'Accepted'),
+(9, 15, '2024-05-13', 'Pending'),
+(10, 2, '2024-05-14', 'Accepted'),
+(11, 8, '2024-05-14', 'Rejected'),
+(12, 12, '2024-05-15', 'Accepted'),
+(13, 4, '2024-05-15', 'Accepted'),
+(14, 6, '2024-05-16', 'Pending'),
+(15, 9, '2024-05-16', 'Accepted'),
+(20, 1, '2024-05-17', 'Accepted'),
+(25, 5, '2024-05-17', 'Rejected'),
+(30, 7, '2024-05-18', 'Accepted'),
+(35, 11, '2024-05-18', 'Accepted'),
+(40, 20, '2024-05-19', 'Pending'),
+(45, 3, '2024-05-19', 'Accepted'),
+(50, 25, '2024-05-20', 'Accepted'),
+(55, 30, '2024-05-20', 'Rejected'),
+(60, 2, '2024-05-21', 'Accepted'),
+(70, 14, '2024-05-21', 'Accepted'),
+(80, 18, '2024-05-22', 'Pending'),
+(90, 22, '2024-05-22', 'Accepted'),
+(100, 1, '2024-05-23', 'Accepted'),
+(110, 6, '2024-05-23', 'Accepted'),
+(120, 9, '2024-05-24', 'Rejected'),
+(130, 13, '2024-05-24', 'Accepted'),
+(140, 17, '2024-05-25', 'Accepted'),
+(145, 21, '2024-05-25', 'Pending'),
+(150, 28, '2024-05-26', 'Accepted');*/
+
+
+/* SELECT 
+    m.majorId,
+    COUNT(*) AS NumOfEmployees 
+FROM graduates g
+JOIN job_applications ja ON g.graduateId = ja.graduateId
+JOIN majors m ON g.majorId = m.majorId
+WHERE ja.status = 'Accepted'
+GROUP BY m.majorId
+ORDER BY NumOfEmployees DESC
+;
+*//*
+SELECT 
+    m.majorName AS MostEmployedMajors,
+    COUNT(*) AS NumOfEmploed
+FROM graduates g
+JOIN job_applications ja ON g.graduateId = ja.graduateId
+JOIN majors m ON g.majorId = m.majorId
+WHERE ja.status = 'Accepted'
+GROUP BY m.majorName
+ORDER BY NumOfEmploed DESC
+;*/
+/*
+SELECT m.majorName, COUNT(*) FROM graduates g
+JOIN job_applications ja ON g.graduateId = ja.graduateId
+JOIN majors m ON g.majorId = m.majorId
+WHERE ja.status = 'Accepted'
+GROUP BY m.majorName;
+*/
+/*SELECT 
+    g.graduateId,
+    g.graduateName,
+    m.majorName
+FROM graduates g
+JOIN majors m ON g.majorId = m.majorId
+JOIN job_applications ja ON g.graduateId = ja.graduateId
+;*/
+/*SELECT 
+  COUNT(*) AS total,
+  SUM(CASE WHEN ja.status = 'Accepted' THEN 1 ELSE 0 END) AS employed,
+  SUM(CASE WHEN ja.status != 'Accepted' THEN 1 ELSE 0 END) AS unemployed
+FROM graduates g
+JOIN job_applications ja ON g.grad
+-- select count(*) from graduates;job_applicationsuateId = ja.graduateId;*/
+/* SELECT 
+  COUNT(*) AS total_graduates,
+  COUNT(j.application_id) AS applied,
+  SUM(CASE WHEN j.status = 'Accepted' THEN 1 ELSE 0 END) AS employed,
+  COUNT(*) - COUNT(j.application_id) AS not_applied
+FROM graduates g
+LEFT JOIN job_applications j ON g.graduateId = j.graduateId;*/
+
+
+/* SELECT COUNT(DISTINCT graduateId) AS employed 
+FROM job_applications 
+WHERE status = 'Accepted'; -- =22 */
+
+/* SELECT COUNT(DISTINCT graduateId) AS applied 
+FROM job_applications;-- =33*/
+
+
+/* SELECT 
+  (SELECT COUNT(*) FROM graduates) AS total_students,
+  (SELECT COUNT(DISTINCT graduateId) FROM job_applications) AS applied,
+  (SELECT COUNT(DISTINCT graduateId) FROM job_applications WHERE status = 'Accepted') AS employed;*/
+  /*
+  SELECT COUNT(*) AS not_applied
+FROM graduates
+WHERE graduateId NOT IN (
+  SELECT DISTINCT graduateId FROM job_applications
+);*/
+
+/*SELECT 
+  g.graduateId,
+  CASE 
+    WHEN a1.graduateId IS NOT NULL THEN 'Employed'
+    WHEN a2.graduateId IS NOT NULL THEN 'Applied but Rejected'
+    ELSE 'Not Applied'
+  END AS employment_status
+FROM graduates g
+LEFT JOIN (SELECT DISTINCT graduateId FROM job_applications WHERE status = 'Accepted') a1 ON g.graduateId = a1.graduateId
+LEFT JOIN (SELECT DISTINCT graduateId FROM job_applications) a2 ON g.graduateId = a2.graduateId;*/
+
+
+/* SELECT * FROM graduates
+WHERE graduateId NOT IN (
+  SELECT DISTINCT graduateId FROM job_applications
+);*/
+
+
+/* SELECT 
+  g.graduateId,
+  g.graduateName,
+  g.gradYear,
+  g.gpa,
+  g.gender,
+  m.majorName AS major,
+  c.company_name AS current_company
+FROM graduates g
+LEFT JOIN majors m ON g.majorId = m.majorId
+LEFT JOIN companies c ON g.current_company_id = c.companyId;*/
+
+
+-- select * from job_applications;
+
+/* SELECT m.majorName, COUNT(*) FROM graduates g 
+JOIN majors m ON g.majorId = m.majorId 
+GROUP BY m.majorName;*/
+
+
+
+/* SELECT 
+  g.graduateId,
+  g.graduateName,
+  g.gradYear,
+  CASE 
+    WHEN g.current_company_id IS NULL THEN 'Unemployed'
+    ELSE 'Employed'
+  END AS status,
+  c.company_name
+FROM graduates g
+LEFT JOIN companies c ON g.current_company_id = c.companyId;*/
+
+-- UPDATE graduates SET current_company_id = 1 WHERE graduateId BETWEEN 11 AND 20;
+-- UPDATE graduates SET current_company_id = 2 WHERE graduateId BETWEEN 21 AND 30;
+-- UPDATE graduates SET current_company_id = 3 WHERE graduateId BETWEEN 31 AND 40;
+-- UPDATE graduates SET current_company_id = 5 WHERE graduateId BETWEEN 41 AND 50;
+
+/* SELECT
+  CASE 
+    WHEN current_company_id IS NULL THEN 'Unemployed'
+    ELSE 'Employed'
+  END AS status,
+  COUNT(*) AS total_count
+FROM graduates
+GROUP BY status;*/
+/* SELECT status, COUNT(*) AS total
+FROM job_applications
+GROUP BY status;*/
+/* SELECT
+  CASE 
+    WHEN status = 'Accepted' THEN 'Employed'
+    ELSE 'Unemployed'
+  END AS employment_status,
+  COUNT(*) AS total_count
+FROM job_applications
+GROUP BY employment_status;*/
+
+/* SELECT 
+  g.graduateName,
+  c.company_name,
+  j.status,
+  CASE WHEN j.status = 'Accepted' THEN 'Employed' ELSE 'Unemployed' END AS employment_status
+FROM job_applications j
+JOIN graduates g ON j.graduateId = g.graduateId
+JOIN companies c ON j.companyId = c.companyId;*/
+
+
+/* SELECT 
+  g.graduateId,
+  g.graduateName,
+  c.company_name,
+  cl.city,
+  j.status
+FROM graduates g
+LEFT JOIN job_applications j ON g.graduateId = j.graduateId AND j.status = 'Accepted'
+LEFT JOIN companies c ON j.companyId = c.companyId
+LEFT JOIN company_locations cl ON c.companyId = cl.companyId
+ORDER BY g.graduateId;
+*/
+
+
+/* ALTER TABLE job_applications 
+ADD CONSTRAINT fk_location
+FOREIGN KEY (locationId) REFERENCES company_locations(locationId);*/
+
+-- كل الخريجين حتى العاطلين
+/* SELECT 
+  g.graduateId,
+  g.graduateName,
+  c.company_name,
+  cl.city AS Branchcompany_locations,
+  j.status
+FROM graduates g
+LEFT JOIN job_applications j ON g.graduateId = j.graduateId AND j.status = 'Accepted'
+LEFT JOIN companies c ON j.companyId = c.companyId
+LEFT JOIN company_locations cl ON j.locationId = cl.locationId
+ORDER BY g.graduateId; */
+/*SET SQL_SAFE_UPDATES = 0;
+
+UPDATE job_applications j
+JOIN (
+  SELECT companyId, MIN(locationId) AS firstBranch
+  FROM company_locations
+  GROUP BY companyId
+) m ON j.companyId = m.companyId
+SET j.locationId = m.firstBranch
+WHERE j.locationId IS NULL AND j.status = 'Accepted';
+
+SET SQL_SAFE_UPDATES = 1;*/
+
+
+-- SHOW TABLES;
+
+-- وبعدها شغلي هذا عشان يجيب كل الأعمدة مرة وحدة
+/* SELECT TABLE_NAME, COLUMN_NAME, COLUMN_KEY, DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS 
+WHERE TABLE_SCHEMA = DATABASE()
+ORDER BY TABLE_NAME;
+*/
+
+
+-- 1. شوفي مين لسه بدون فرع وهو مقبول
+/* SELECT * FROM job_applications 
+WHERE status = 'Accepted' AND locationId IS NULL;
+
+-- 2. شوفي هل كل الشركات عندها فروع؟
+ SELECT c.companyId, c.company_name, COUNT(cl.locationId) AS NUMbranch
+FROM companies c
+LEFT JOIN company_locations cl ON c.companyId = cl.companyId
+GROUP BY c.companyId;*/ 
+
+/*select *from graduate_employment_report
+where gradYear=2023;*/
+-- select * from companies;
+-- select * from company_locations;
+-- select * from graduates;
+-- select * from job_applications;
+-- select * from majors;
+/* select gradYear,
+ count(*) as numOFgraduates from graduates where gradYear 
+between 2023 and 2025 group by gradYear order by gradYear;*/
+/* select m.majorName , count(g.graduateId) as NumOfGraduates from graduates g join majors m on
+ g.majorId group by m.majorName;*/
+ 
+ /*  select m.majorName , count(g.graduateId) as NumOfGraduates from graduates g join majors m on
+ g.majorId =m.majorId
+ where g.gradYear= 2025
+ group by m.majorName;*/
+ 
+ 
+   /* select m.majorName , count(g.graduateId) as NumOfGraduates from graduates g join majors m on
+ g.majorId =m.majorId
+ where g.gradYear= 2025
+ group by m.majorName
+ order by NumOfGraduates asc; -- asc or desc*/
+ 
+ 
+ /* select m.majorName , g.gradYear, count(g.graduateId) as NumOfGraduates from graduates g join majors m on
+ g.majorId =m.majorId
+ where g.gradYear between 2023 and 2025 
+ group by m.majorName,g.gradYear
+ order by m.majorName,g.gradYear;
+*/
+  /* 
+  SELECT 
+    YEAR(application_date) AS application_year,
+    COUNT(*) AS num_of_applications
+FROM job_applications
+WHERE YEAR(application_date) BETWEEN 2023 AND 2025
+GROUP BY YEAR(application_date)
+ORDER BY application_year;*/
+ 
+/* SELECT 
+    status,
+    COUNT(*) AS num_of_applications
+FROM job_applications
+GROUP BY status;*/
+
+
+/*  SELECT 
+    YEAR(application_date) AS application_year,
+    COUNT(*) AS num_of_applications
+FROM job_applications
+GROUP BY YEAR(application_date)
+ORDER BY application_year;*/
+
+
+-- select * from graduates where gradYear=2025;
+/* 
+SELECT 
+    g.graduateId,
+    g.gradYear,
+    j.status
+FROM graduates g
+JOIN job_applications j
+    ON g.graduateId = j.graduateId
+WHERE g.gradYear = 2023; -- 2024 OR 2025*/
+/* 
+SELECT 
+    g.gradYear,
+    ja.status,
+    COUNT(*) AS num_of_graduates
+FROM graduates g
+JOIN job_applications ja
+    ON g.graduateId = ja.graduateId
+GROUP BY 
+    g.gradYear,
+    ja.status
+ORDER BY 
+    g.gradYear,
+    ja.status;*/
+    /* 
+    SELECT 
+    g.gradYear,
+    COUNT(*) AS total_applications
+FROM graduates g
+JOIN job_applications ja
+    ON g.graduateId = ja.graduateId
+GROUP BY g.gradYear
+ORDER BY g.gradYear;*/
+
+/* SELECT 
+    g.gradYear,
+    COUNT(*) AS accepted_applications
+FROM graduates g
+JOIN job_applications ja
+    ON g.graduateId = ja.graduateId
+WHERE ja.status = 'Accepted'  -- Pending or Rejected or Accepted
+GROUP BY g.gradYear
+ORDER BY g.gradYear;*/
+
+
+/* SELECT 
+    g.gradYear,
+    ja.status,
+    COUNT(*) AS num_of_applications
+FROM graduates g
+JOIN job_applications ja
+    ON g.graduateId = ja.graduateId
+GROUP BY 
+    g.gradYear,
+    ja.status
+ORDER BY 
+    g.gradYear,
+    ja.status;*/
+    
+    
+      /* SELECT 
+    m.majorName,
+    COUNT(*) AS accepted_applications
+FROM graduates g
+JOIN majors m
+    ON g.majorId = m.majorId
+JOIN job_applications ja
+    ON g.graduateId = ja.graduateId
+WHERE ja.status = 'Accepted'
+GROUP BY m.majorName
+ORDER BY accepted_applications DESC; -- OR ASC */
+ -- use graduate_system;
+
+/* 
+SELECT 
+    cl.city,
+    COUNT(ja.application_id) AS total_applications
+FROM company_locations cl
+JOIN job_applications ja
+    ON cl.companyId = ja.companyId
+GROUP BY cl.city
+ORDER BY total_applications DESC; */
+--  select * from graduates;
+ /* 
+SELECT 
+  g.graduateId,
+  g.graduateName,
+  m.majorName,
+  c.company_name,
+  cl.city,
+  ja.status,
+  ja.application_date
+FROM graduates g
+LEFT JOIN majors m ON g.majorId = m.majorId
+LEFT JOIN job_applications ja ON g.graduateId = ja.graduateId
+LEFT JOIN companies c ON ja.companyId = c.companyId
+LEFT JOIN company_locations cl ON c.companyId = cl.companyId
+ORDER BY g.graduateId;*/
+
+
+-- alter table job_applications add column response_date date;
+-- select * from job_applications;
+
+/*
+SET SQL_SAFE_UPDATES = 0;
+UPDATE job_applications
+SET response_date = DATE_ADD(application_date, INTERVAL 14 DAY)
+WHERE status IN ('Accepted', 'Rejected');
+UPDATE job_applications
+SET response_date = NULL
+WHERE status = 'Pending';
+SET SQL_SAFE_UPDATES = 1;
+SELECT status, application_date, response_date FROM job_applications;*/
+/*
+SELECT 
+    g.graduateId,
+    g.graduateName,
+    m.majorName,
+    c.company_name,
+    cl.city AS branch,
+    ja.status,
+    ja.application_date,
+    ja.response_date
+FROM graduates g
+LEFT JOIN majors m ON g.majorId = m.majorId
+LEFT JOIN job_applications ja ON g.graduateId = ja.graduateId
+LEFT JOIN companies c ON ja.companyId = c.companyId
+LEFT JOIN company_locations cl ON c.companyId = cl.companyId
+ORDER BY g.graduateId;*/
+/* 
+SELECT 
+    g.graduateName,
+    c.company_name,
+    ja.application_date,
+    ja.status,
+    ja.response_date
+FROM graduates g
+JOIN job_applications ja ON g.graduateId = ja.graduateId
+JOIN companies c ON ja.companyId = c.companyId;*/
+
+-- select * from company_locations;
+
+/*
+SELECT
+    g.graduateId,
+    g.graduateName,
+    g.gradYear,
+    m.majorName,
+    JSON_ARRAYAGG(
+        JSON_OBJECT(
+            'company_id', c.companyId,
+            'company_name', c.company_name,
+            'status', ja.status,
+            'application_date', ja.application_date
+        )
+    ) AS applications
+
+FROM graduates g
+
+LEFT JOIN majors m
+    ON g.majorId = m.majorId
+
+LEFT JOIN job_applications ja
+    ON g.graduateId = ja.graduateId
+
+LEFT JOIN companies c
+    ON ja.companyId = c.companyId
+
+GROUP BY
+    g.graduateId,
+    g.graduateName,
+    g.gradYear,
+    m.majorName;*/
+    /* 
+    SELECT
+    g.graduateId,
+    g.graduateName,
+    g.gradYear,
+    m.majorName,
+
+    JSON_ARRAYAGG(
+        JSON_OBJECT(
+            'company_id', c.companyId,
+            'company_name', c.company_name,
+            'status', ja.status,
+            'application_date', ja.application_date
+        )
+    ) AS applications
+
+FROM graduates g
+
+LEFT JOIN majors m
+    ON g.majorId = m.majorId
+
+LEFT JOIN job_applications ja
+    ON g.graduateId = ja.graduateId
+
+LEFT JOIN companies c
+    ON ja.companyId = c.companyId
+
+GROUP BY
+    g.graduateId,
+    g.graduateName,
+    g.gradYear,
+    m.majorName;
+    */
+    
+ --  select* from job_applications;  
+ 
+/* SELECT
+    g.graduateId,
+    g.graduateName,
+    g.gradYear,
+    m.majorName
+FROM graduates g
+LEFT JOIN majors m
+    ON g.majorId = m.majorId;*/
+ 
+    /* SELECT
+    ja.graduateId,
+    ja.companyId,
+    ja.status,
+    ja.application_date
+FROM job_applications ja;*/
+
+/* SELECT JSON_ARRAYAGG(
+    JSON_OBJECT(
+        'graduateId', g.graduateId,
+        'graduateName', g.graduateName,
+        'gradYear', g.gradYear,
+        'major', m.majorName,
+        'applications',
+        (
+            SELECT JSON_ARRAYAGG(
+                JSON_OBJECT(
+                    'companyId', ja.companyId,
+                    'status', ja.status,
+                    'applicationDate', ja.application_date
+                )
+            )
+            FROM job_applications ja
+            WHERE ja.graduateId = g.graduateId
+        )
+    )
+) AS graduatesData
+FROM graduates g
+LEFT JOIN majors m
+    ON g.majorId = m.majorId;*/
+    
+    
+    /*
+    SELECT
+    g.graduateId,
+    g.graduateName,
+    g.gradYear,
+    m.majorName,
+
+    (
+        SELECT JSON_ARRAYAGG(
+            JSON_OBJECT(
+                'companyId', ja.companyId,
+                'status', ja.status,
+                'applicationDate', ja.application_date
+            )
+        )
+        FROM job_applications ja
+        WHERE ja.graduateId = g.graduateId
+    ) AS applications
+
+FROM graduates g
+
+LEFT JOIN majors m
+    ON g.majorId = m.majorId;*/
+
+
+
+
+
+
+
+
+
+
+  /* SELECT 
+    g.graduateName,
+    GROUP_CONCAT(c.company_name SEPARATOR ' , ') ا,
+    COUNT(ja.companyId) 
+FROM graduates g
+JOIN job_applications ja ON g.graduateId = ja.graduateId
+JOIN companies c ON ja.companyId = c.companyId
+GROUP BY g.graduateName;
+*/
+
+
+
+
+
+
+
+/* SELECT 
+    g.graduateId ,
+    g.graduateName, 
+    COUNT(ja.companyId) ,
+    GROUP_CONCAT(CONCAT(c.company_name, ' - ', cl.city, ' (', ja.status, ')') SEPARATOR ' | ') AS applicatios
+FROM graduates g
+JOIN job_applications ja ON g.graduateId = ja.graduateId
+JOIN companies c ON ja.companyId = c.companyId
+LEFT JOIN company_locations cl ON c.companyId = cl.companyId
+GROUP BY g.graduateId, g.graduateName
+ORDER BY g.graduateId;
+
+
+
+*/
+
+
+/* SELECT 
+    application_id,
+    graduateId,
+    companyId,
+    status,
+    response_date
+FROM job_applications
+ORDER BY graduateId, response_date DESC;*/
+
+
+
+/* SELECT graduateId, COUNT(*) AS total
+FROM job_applications
+GROUP BY graduateId
+HAVING COUNT(*) > 1;*/
+
+
+/* SELECT 
+    graduateId,
+    application_id,
+    companyId,
+    status,
+    response_date,
+    ROW_NUMBER() OVER (
+        PARTITION BY graduateId
+        ORDER BY response_date DESC
+    ) AS rn
+FROM job_applications
+ORDER BY graduateId, rn;
+*/
+
+
+
+
+-- select * from job_applications;
+
+/* SELECT graduateId, status, COUNT(*) AS total
+FROM job_applications
+GROUP BY graduateId, status
+ORDER BY graduateId;
+*/
+
+-- select * from majors;
+
+/* SELECT 
+    application_id,
+    graduateId,
+    companyId,
+    response_date,
+    status
+FROM job_applications
+WHERE response_date IS NOT NULL
+ORDER BY application_id;*/
+
+
+/* SELECT
+    g.graduateId,
+    g.graduateName,
+    c.company_name,
+    cl.city AS branch_city,
+    ja.response_date
+FROM job_applications ja
+JOIN graduates g
+    ON ja.graduateId = g.graduateId
+JOIN companies c
+    ON ja.companyId = c.companyId
+JOIN company_locations cl
+    ON ja.locationId = cl.locationId
+WHERE ja.status = 'Accepted';*/
+
+
+
+
+
+/* SELECT
+    ja.application_id,
+    ja.graduateId,
+    ja.companyId,
+    c.company_name
+FROM job_applications ja
+JOIN companies c
+    ON ja.companyId = c.companyId
+LEFT JOIN company_locations cl
+    ON ja.locationId = cl.locationId
+WHERE ja.status = 'Accepted'
+AND cl.locationId IS NULL;*/
+
+
+/* 
+SELECT
+    ja.application_id,
+    ja.graduateId,
+    g.graduateName,
+    ja.companyId,
+    c.company_name,
+    ja.locationId,
+    cl.city,
+    ja.status,
+    ja.response_date
+FROM job_applications ja
+JOIN graduates g
+    ON ja.graduateId = g.graduateId
+JOIN companies c
+    ON ja.companyId = c.companyId
+LEFT JOIN company_locations cl
+    ON ja.locationId = cl.locationId
+ORDER BY ja.graduateId, ja.application_id;
+*/
+
+
+
+
+/* SELECT JSON_OBJECT(
+    'graduateId', g.graduateId,
+    'graduateName', g.graduateName,
+    'gradYear', g.gradYear,
+    'major', m.majorName,
+    'applications', (
+        SELECT COALESCE(
+            JSON_ARRAYAGG(
+                JSON_OBJECT(
+                    'companyId', ja.companyId,
+                    'status', ja.status,
+                    'responseDate', ja.response_date,
+                    'locationId', ja.locationId
+                )
+            ),
+            JSON_ARRAY()
+        )
+        FROM job_applications ja
+        WHERE ja.graduateId = g.graduateId
+    )
+) AS graduate_json
+FROM graduates g
+JOIN majors m
+    ON g.majorId = m.majorId
+ORDER BY g.graduateId;
+*/
+
+
+use graduate_system;
+
+/*
+SELECT 
+    g.graduateId,
+    g.graduateName,
+    g.majorId,
+    g.gpa,
+    g.gradYear
+FROM graduates g;*/
+/* 
+SELECT JSON_OBJECT(
+    'graduateName', g.graduateName,
+    'major', g.majorId,
+    'gpa', g.gpa,
+    'graduation_year', g.gradYear,
+    'applications', COALESCE((
+        SELECT JSON_ARRAYAGG(
+            JSON_OBJECT(
+                'company_name', c.company_name,
+                'city', cl.city,
+                'application_date', ja.application_date,
+                'response_date', DATE_ADD(ja.application_date, INTERVAL 7 DAY),
+                'status', ja.status
+            )
+        )
+        FROM job_applications ja
+        JOIN companies c ON ja.companyId = c.companyId
+        LEFT JOIN company_locations cl ON c.companyId = cl.companyId
+        WHERE ja.graduateId = g.graduateId
+    ), JSON_ARRAY())
+) AS mongo_document
+FROM graduates g;*/
+
+
+
+USE graduate_system;
+-- SELECT * FROM all_data_view;
+
+/* 
+DROP VIEW IF EXISTS all_data_view;
+
+CREATE VIEW all_data_view AS
+SELECT 
+    g.graduateId,
+    g.graduateName,
+    g.gradYear,
+    g.gpa,
+    g.majorId,
+    g.gender,
+    ja.application_date,
+    ja.status,
+    c.company_name
+FROM graduates g
+LEFT JOIN job_applications ja ON ja.graduateId = g.graduateId
+LEFT JOIN companies c ON ja.companyId = c.companyId;
+
+SELECT * FROM all_data_view; */
+
+
+use graduate_system;
+
+/* DROP VIEW IF EXISTS all_data_view;
+
+CREATE VIEW all_data_view AS
+SELECT 
+    g.graduateId,
+    g.graduateName,
+    c.company_name,
+    cl.city AS branch_city,
+    ja.status,
+    ja.application_date,
+    ja.locationId
+FROM graduates g
+LEFT JOIN job_applications ja ON ja.graduateId = g.graduateId
+LEFT JOIN companies c ON c.companyId = ja.companyId
+LEFT JOIN company_locations cl ON cl.locationId = ja.locationId;
+
+SELECT * FROM all_data_view ORDER BY graduateId, company_name;*/
+
+
+
+
+USE graduate_system;
+
+/* SELECT 
+    g.*,
+    ja.application_id,
+    ja.application_date,
+    ja.status,
+    ja.response_date,
+    c.*,
+    cl.city,
+    mj.majorName
+FROM graduates g
+LEFT JOIN job_applications ja ON ja.graduateId = g.graduateId
+LEFT JOIN companies c ON c.companyId = ja.companyId
+LEFT JOIN company_locations cl ON cl.locationId = ja.locationId
+LEFT JOIN majors mj ON mj.majorId = g.majorId
+ORDER BY g.graduateId;
+
+*/
+
+
+
+
+/* SELECT CONCAT(
+ 'db.graduates.updateOne({graduateId: ', g.graduateId, '}, {$set: {applications: ',
+ IFNULL(
+   (SELECT JSON_ARRAYAGG(
+     JSON_OBJECT('company_name', c.company_name, 'city', cl.city, 'status', ja.status)
+   )
+   FROM job_applications ja
+   JOIN companies c ON c.companyId = ja.companyId
+   JOIN company_locations cl ON cl.locationId = ja.locationId
+   WHERE ja.graduateId = g.graduateId),
+ '[]'),
+ '}});'
+) AS cmd
+FROM graduates g;*/
+
+
+
+
+/* SELECT g.graduateId, g.graduateName
+FROM graduates g
+WHERE g.gradYear = 2024;*/
+
+
+select * from majors;
