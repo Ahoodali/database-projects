@@ -27,7 +27,7 @@ It includes information such as:
 
 ## 🛠️ Technologies Used
 
-1. 🐬 MySQL
+### 1. 🐬 MySQL
 
 MySQL was used to create a relational database containing tables for the project data 🗃️.
 
@@ -46,7 +46,7 @@ I practiced:
 
 The MySQL folder contains the database dump and SQL queries used in the project 📁.
 
-2. 🍃 MongoDB Atlas
+### 2. 🍃 MongoDB Atlas
 
 The same project data was implemented using MongoDB as a NoSQL database 🌐.
 
@@ -61,11 +61,14 @@ I practiced:
 
 The MongoDB folder contains exported JSON collections 📁.
 
-3. 🔥 Firebase Firestore
 
-The project was also implemented using Firebase Firestore ☁️.
+### 3. 🔥 Firebase Firestore
 
-The same project data was added to Firestore to practice working with a cloud-based NoSQL database and its collections and documents 🚀.
+The same project data was implemented using Firebase Firestore.
+
+I exported the collections from MongoDB Atlas as JSON files and then imported these JSON files into Firebase Firestore using Firefoo.
+
+This allowed me to use the same project data in Firebase and understand how NoSQL data can be managed using Firestore.
 
 ## 🎯 What I Learned
 
