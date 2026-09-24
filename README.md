@@ -73,15 +73,16 @@ This allowed me to use the same project data in both MongoDB and Firebase Firest
 
 ## 📸 Screenshots
 
-🐬 MySQL
+### 🐬 MySQL
 
 MySQL database tables and query results.
+Screenshots/Mysql/لقطة شاشة 2026-09-24 162700.png
 
-🍃 MongoDB Atlas & Compass
+### 🍃 MongoDB Atlas & Compass
 
 MongoDB collections, documents, and database operations.
 
-🔥 Firebase Firestore
+### 🔥 Firebase Firestore
 
 Firebase Firestore collections and documents.
 
