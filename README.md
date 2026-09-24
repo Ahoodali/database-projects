@@ -46,9 +46,11 @@ I practiced:
 
 The MySQL folder contains the database dump and SQL queries used in the project 📁.
 
-### 2. 🍃 MongoDB Atlas
+### 2. 🍃 MongoDB Atlas & Compass
 
-The same project data was implemented using MongoDB as a NoSQL database 🌐.
+The same project data was implemented using MongoDB Atlas as a NoSQL database.
+
+I also used MongoDB Compass to connect to and manage the MongoDB database and its collections.
 
 I practiced:
 
@@ -59,16 +61,15 @@ I practiced:
 * 📈 Aggregation
 * 🔗 Working with related data in a NoSQL structure
 
-The MongoDB folder contains exported JSON collections 📁.
-
+The MongoDB folder contains the exported JSON collections.
 
 ### 3. 🔥 Firebase Firestore
 
-The same project data was implemented using Firebase Firestore.
+The same project data was also implemented using Firebase Firestore.
 
-I exported the collections from MongoDB Atlas as JSON files and then imported these JSON files into Firebase Firestore using Firefoo.
+I exported the collections from MongoDB Atlas as JSON files, then used Firefoo to import the JSON data into Firebase Firestore.
 
-This allowed me to use the same project data in Firebase and understand how NoSQL data can be managed using Firestore.
+This allowed me to use the same project data in both MongoDB and Firebase Firestore and understand how the same data can be managed in different NoSQL database systems.
 
 ## 🎯 What I Learned
 
