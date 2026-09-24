@@ -71,6 +71,22 @@ I exported the collections from MongoDB Atlas as JSON files, then used Firefoo t
 
 This allowed me to use the same project data in both MongoDB and Firebase Firestore and understand how the same data can be managed in different NoSQL database systems.
 
+## 📸 Screenshots
+
+🐬 MySQL
+
+MySQL database tables and query results.
+
+🍃 MongoDB Atlas & Compass
+
+MongoDB collections, documents, and database operations.
+
+🔥 Firebase Firestore
+
+Firebase Firestore collections and documents.
+
+These screenshots demonstrate the implementation of the same database project using different database technologies.
+
 ## 🎯 What I Learned
 
 Through this project, I practiced working with different database technologies and understood how the same data and relationships can be represented in different database systems 🧠.
